@@ -7,7 +7,7 @@ The Foodie-Fi team wants you to create a new payments table for the year 2020 th
 
 Solution -->
 
-'''
+```
 CREATE TABLE payments_2020 AS
 with cte as (
 select s.customer_id, s.plan_id, p.plan_name, s.start_date, 
@@ -44,7 +44,7 @@ from cte3;
 
 
 select * from payments_2020;
-'''
+```
 
 output -->
 
