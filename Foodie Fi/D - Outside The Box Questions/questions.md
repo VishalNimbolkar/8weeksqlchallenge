@@ -1,4 +1,5 @@
-																						* D -  Outside The Box Questions *
+																						 D -  Outside The Box Questions 
+
 
 
 
@@ -41,6 +42,7 @@ from cte;
 
 
 -- 3. What are some key customer journeys or experiences that you would analyse further to improve customer retention?
+
 If we want to improve customer retention, we should focus more on after-purchase stage where encourage the customer 
 to purchase more and dont let him/her to move to our competitors, in case there are. So we can work more on customer service, 
 guarantee, and providing offers, especially to loyal customers. If we do these things well and get a good reputation, 
