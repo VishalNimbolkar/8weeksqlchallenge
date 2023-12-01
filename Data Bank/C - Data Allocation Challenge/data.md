@@ -30,6 +30,8 @@ group by customer_id, txn_date, amount
 order by customer_id, txn_date;
 ```
 output :
+
+
 ![image](https://github.com/VishalNimbolkar/8weeksqlchallenge/assets/80448632/53491d70-9da8-462c-8d88-fe2f81a1ebc3)
 
 
@@ -54,6 +56,8 @@ group by customer_id, month, amount
 order by customer_id, month;
 ```
 output : 
+
+
 ![image](https://github.com/VishalNimbolkar/8weeksqlchallenge/assets/80448632/7a61dcd1-dde9-4131-97a3-887ad6fa5595)
 
 
@@ -84,5 +88,7 @@ order by customer_id;
 ```
 
 output :
+
+
 ![image](https://github.com/VishalNimbolkar/8weeksqlchallenge/assets/80448632/85e3a83c-13bc-4b10-8fb4-43a87732eab5)
 
