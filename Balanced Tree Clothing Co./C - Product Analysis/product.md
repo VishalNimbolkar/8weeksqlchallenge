@@ -1,6 +1,7 @@
                                                           *  Product Analyst  *
-                                                          
-![image](https://github.com/VishalNimbolkar/8weeksqlchallenge/assets/80448632/c5d014b0-f851-4daa-99a0-5e42bb6d34ca)
+
+
+
 
 
 
