@@ -1,4 +1,4 @@
-                                                                    * Index Analysis *
+                                                                * Index Analysis *
 
 __The index_value is a measure which can be used to reverse calculate the average composition for Fresh Segments’ clients.__
 
