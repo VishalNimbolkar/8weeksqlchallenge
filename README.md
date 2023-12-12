@@ -1,6 +1,9 @@
 # 8weeksqlchallenge
 
-### My Solution For Danny Ma 8WeekSQLChallenge. [Case Study](https://8weeksqlchallenge.com/)
+
+__This repository contains the solutions for the case studies in [8weeksqlchallenge](https://8weeksqlchallenge.com/). The 8 Week SQL Challenge is started by Danny Ma through Data With Danny virtual data apprenticeship program, which consists of 8 different SQL challenges.__
+
+:books: ## Table of Contents
 
 
 
