@@ -1,17 +1,21 @@
                                                                     * Index Analysis *
 
-**The index_value is a measure which can be used to reverse calculate the average composition for Fresh Segments’ clients.
+__The index_value is a measure which can be used to reverse calculate the average composition for Fresh Segments’ clients.__
 
-Average composition can be calculated by dividing the composition column by the index_value column rounded to 2 decimal places.**
+__Average composition can be calculated by dividing the composition column by the index_value column rounded to 2 decimal places.__
 
+```
 drop table if exists fresh_segments.index_table
 with cte as (
-select *
+select *,
 round((composition/index_value)::numeric, 2) as avg_composition
 from fresh_segments.interest_metrics 
 )
 select * into fresh_segments.index_table from cte;
+```
+Output := 
 
+![image](https://github.com/VishalNimbolkar/8weeksqlchallenge/assets/80448632/5ac75e73-f1c5-4dd0-8982-1099926cbdb4)
 
 
 -- 1. What is the top 10 interests by the average composition for each month?
@@ -103,9 +107,10 @@ Output :=
 
 
 -- 5. Provide a possible reason why the max average composition might change from month to month? 
+
 -- Could it signal something is not quite right with the overall business model for Fresh Segments?
 
-**I think that the users interests may have changed, and the users are less interested in some topics now if at all. Users "burnt out", and the index composition value has decreased. Maybe some users (or interests) need to be transferred to another segment. However, some interests keep high index_composition value, it possibly means that these topics are always in the users interest area. Another possible reason is seasonality.
+__I think that the users interests may have changed, and the users are less interested in some topics now if at all. Users "burnt out", and the index composition value has decreased. Maybe some users (or interests) need to be transferred to another segment. However, some interests keep high index_composition value, it possibly means that these topics are always in the users interest area. Another possible reason is seasonality.__
 
-To make the long story short, the company can ask themselves: are the fresh segments really fresh?**
+__To make the long story short, the company can ask themselves: are the fresh segments really fresh?__
 
