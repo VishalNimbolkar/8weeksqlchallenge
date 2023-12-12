@@ -8,7 +8,7 @@ __Note :__
 
  Solutions are coded in __Postgres__
 
-:books: <h2>Table of Contents</h2>
+<h2> :books: </h2> <h2>Table of Contents</h2>
 
  
 
