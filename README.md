@@ -8,7 +8,7 @@ __Note :__
 
  Solutions are coded in __Postgres__
 
-:books: __Table of Contents__
+[:books:] [## Table of Contents]
  
 
 
