@@ -1,7 +1,7 @@
 <h1> :avocado: Case Study #3 - Foodie-Fi </h1>
 
 <p align="center">
-  <img src="![image](https://github.com/VishalNimbolkar/8weeksqlchallenge/assets/80448632/22474add-58ce-492e-adfa-9295431678a0)" width="350" height="350">
+  <img src="https://github.com/VishalNimbolkar/8weeksqlchallenge/assets/80448632/22474add-58ce-492e-adfa-9295431678a0" width="350" height="350">
 </p>
 
 __Subscription based businesses are super popular and Danny realised that there was a large gap in the market - he wanted to create a new streaming service that only had food related content - something like Netflix but with only cooking shows!__
