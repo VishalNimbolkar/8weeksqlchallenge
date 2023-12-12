@@ -5,7 +5,8 @@ __This repository contains the solutions for the case studies in [8weeksqlchalle
 
 
 __Note :__
- ###Solutions are coded in __Postgres__###
+
+ Solutions are coded in __Postgres__
 
 :books: __Table of Contents__
  
